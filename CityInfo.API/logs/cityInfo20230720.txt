@@ -1,0 +1,1106 @@
+2023-07-20 11:26:36.985 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-07-20 11:26:37.385 +01:00 [DBG] Entity Framework Core 7.0.9 initialized 'CityInfoContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.4+96806371445869d20be357993820cd4be366e145' with options: None
+2023-07-20 11:26:37.478 +01:00 [DBG] 'CityInfoContext' disposed.
+2023-07-20 11:29:22.807 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-07-20 11:29:23.223 +01:00 [DBG] Entity Framework Core 7.0.9 initialized 'CityInfoContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.4+96806371445869d20be357993820cd4be366e145' with options: None
+2023-07-20 11:29:23.232 +01:00 [DBG] Creating DbConnection.
+2023-07-20 11:29:23.249 +01:00 [DBG] Created DbConnection. (15ms).
+2023-07-20 11:29:23.252 +01:00 [DBG] Migrating using database 'cityInfo-db' on server ''.
+2023-07-20 11:29:23.255 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 11:29:23.298 +01:00 [DBG] An error occurred using the connection to database 'cityInfo-db' on server ''.
+2023-07-20 11:29:23.299 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 11:29:23.303 +01:00 [DBG] An error occurred using the connection to database 'cityInfo-db' on server ''.
+2023-07-20 11:29:23.312 +01:00 [DBG] Creating DbConnection.
+2023-07-20 11:29:23.312 +01:00 [DBG] Created DbConnection. (0ms).
+2023-07-20 11:29:23.312 +01:00 [DBG] Opening connection to database 'postgres' on server ''.
+2023-07-20 11:29:23.375 +01:00 [DBG] Opened connection to database 'postgres' on server 'tcp://localhost:5432'.
+2023-07-20 11:29:23.379 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-07-20 11:29:23.382 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2023-07-20 11:29:23.382 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (5ms).
+2023-07-20 11:29:23.385 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE DATABASE "cityInfo-db";
+2023-07-20 11:29:23.556 +01:00 [INF] Executed DbCommand (171ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE DATABASE "cityInfo-db";
+2023-07-20 11:29:23.557 +01:00 [DBG] Closing connection to database 'postgres' on server 'tcp://localhost:5432'.
+2023-07-20 11:29:23.560 +01:00 [DBG] Closed connection to database 'postgres' on server '' (1ms).
+2023-07-20 11:29:23.561 +01:00 [DBG] Disposing connection to database 'postgres' on server ''.
+2023-07-20 11:29:23.561 +01:00 [DBG] Disposed connection to database 'postgres' on server '' (0ms).
+2023-07-20 11:29:23.562 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 11:29:23.574 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:29:23.580 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:29:23.581 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 11:29:23.622 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-07-20 11:29:23.622 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 11:29:23.622 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 11:29:23.622 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 11:29:23.643 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:29:23.643 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2023-07-20 11:29:23.647 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2023-07-20 11:29:23.647 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:29:23.647 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 11:29:23.648 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 11:29:23.653 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:29:23.653 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:29:23.653 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 11:29:23.654 +01:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-07-20 11:29:23.654 +01:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-07-20 11:29:23.654 +01:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2023-07-20 11:29:23.654 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 11:29:23.654 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:29:23.654 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-20 11:29:23.664 +01:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-20 11:29:23.664 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:29:23.664 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 11:29:23.664 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-20 11:29:23.664 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-07-20 11:29:23.664 +01:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-07-20 11:29:23.664 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 11:29:23.664 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:29:23.665 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-07-20 11:29:23.665 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-07-20 11:29:23.666 +01:00 [DBG] Closing data reader to 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:29:23.668 +01:00 [DBG] A data reader for 'cityInfo-db' on server 'tcp://localhost:5432' is being disposed after spending 1ms reading results.
+2023-07-20 11:29:23.668 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:29:23.668 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 11:29:23.677 +01:00 [INF] Applying migration '20230720102637_CityInfoDBInitialMigration'.
+2023-07-20 11:29:23.687 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 11:29:23.687 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:29:23.688 +01:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-07-20 11:29:23.690 +01:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-07-20 11:29:23.690 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-07-20 11:29:23.690 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 11:29:23.690 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 11:29:23.690 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Cities" (
+    "Id" integer GENERATED BY DEFAULT AS IDENTITY,
+    "Name" character varying(50) NOT NULL,
+    "Description" character varying(200) NULL,
+    CONSTRAINT "PK_Cities" PRIMARY KEY ("Id")
+);
+2023-07-20 11:29:23.693 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Cities" (
+    "Id" integer GENERATED BY DEFAULT AS IDENTITY,
+    "Name" character varying(50) NOT NULL,
+    "Description" character varying(200) NULL,
+    CONSTRAINT "PK_Cities" PRIMARY KEY ("Id")
+);
+2023-07-20 11:29:23.693 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-07-20 11:29:23.693 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 11:29:23.693 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 11:29:23.693 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "PointOfInterests" (
+    "Id" integer GENERATED BY DEFAULT AS IDENTITY,
+    "Name" character varying(20) NOT NULL,
+    "Description" character varying(200) NULL,
+    "CityId" integer NOT NULL,
+    CONSTRAINT "PK_PointOfInterests" PRIMARY KEY ("Id"),
+    CONSTRAINT "FK_PointOfInterests_Cities_CityId" FOREIGN KEY ("CityId") REFERENCES "Cities" ("Id") ON DELETE CASCADE
+);
+2023-07-20 11:29:23.695 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "PointOfInterests" (
+    "Id" integer GENERATED BY DEFAULT AS IDENTITY,
+    "Name" character varying(20) NOT NULL,
+    "Description" character varying(200) NULL,
+    "CityId" integer NOT NULL,
+    CONSTRAINT "PK_PointOfInterests" PRIMARY KEY ("Id"),
+    CONSTRAINT "FK_PointOfInterests_Cities_CityId" FOREIGN KEY ("CityId") REFERENCES "Cities" ("Id") ON DELETE CASCADE
+);
+2023-07-20 11:29:23.695 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-07-20 11:29:23.695 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 11:29:23.695 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 11:29:23.695 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_PointOfInterests_CityId" ON "PointOfInterests" ("CityId");
+2023-07-20 11:29:23.695 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_PointOfInterests_CityId" ON "PointOfInterests" ("CityId");
+2023-07-20 11:29:23.695 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-07-20 11:29:23.695 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 11:29:23.695 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 11:29:23.695 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20230720102637_CityInfoDBInitialMigration', '7.0.9');
+2023-07-20 11:29:23.696 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20230720102637_CityInfoDBInitialMigration', '7.0.9');
+2023-07-20 11:29:23.696 +01:00 [DBG] Committing transaction.
+2023-07-20 11:29:23.698 +01:00 [DBG] Committed transaction.
+2023-07-20 11:29:23.698 +01:00 [DBG] Disposing transaction.
+2023-07-20 11:29:23.698 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:29:23.698 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 11:29:23.699 +01:00 [DBG] 'CityInfoContext' disposed.
+2023-07-20 11:29:23.699 +01:00 [DBG] Disposing connection to database 'cityInfo-db' on server ''.
+2023-07-20 11:29:23.699 +01:00 [DBG] Disposed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 11:49:56.024 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-07-20 11:49:56.434 +01:00 [DBG] Entity Framework Core 7.0.9 initialized 'CityInfoContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.4+96806371445869d20be357993820cd4be366e145' with options: None
+2023-07-20 11:49:56.547 +01:00 [DBG] 'CityInfoContext' disposed.
+2023-07-20 11:50:24.865 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-07-20 11:50:25.290 +01:00 [DBG] Entity Framework Core 7.0.9 initialized 'CityInfoContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.4+96806371445869d20be357993820cd4be366e145' with options: None
+2023-07-20 11:50:25.298 +01:00 [DBG] Creating DbConnection.
+2023-07-20 11:50:25.316 +01:00 [DBG] Created DbConnection. (15ms).
+2023-07-20 11:50:25.319 +01:00 [DBG] Migrating using database 'cityInfo-db' on server ''.
+2023-07-20 11:50:25.322 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 11:50:25.416 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:50:25.424 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:50:25.429 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (3ms).
+2023-07-20 11:50:25.433 +01:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-07-20 11:50:25.436 +01:00 [DBG] Created DbCommand for 'ExecuteScalar' (2ms).
+2023-07-20 11:50:25.437 +01:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (5ms).
+2023-07-20 11:50:25.437 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 11:50:25.458 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:50:25.461 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-20 11:50:25.501 +01:00 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-20 11:50:25.502 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:50:25.503 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 11:50:25.503 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 11:50:25.509 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:50:25.509 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:50:25.509 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 11:50:25.509 +01:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-07-20 11:50:25.509 +01:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-07-20 11:50:25.509 +01:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2023-07-20 11:50:25.509 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 11:50:25.509 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:50:25.509 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-20 11:50:25.510 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-20 11:50:25.510 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:50:25.510 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 11:50:25.518 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-20 11:50:25.518 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-07-20 11:50:25.518 +01:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-07-20 11:50:25.518 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 11:50:25.518 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:50:25.518 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-07-20 11:50:25.520 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-07-20 11:50:25.522 +01:00 [DBG] Closing data reader to 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:50:25.524 +01:00 [DBG] A data reader for 'cityInfo-db' on server 'tcp://localhost:5432' is being disposed after spending 3ms reading results.
+2023-07-20 11:50:25.524 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:50:25.524 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 11:50:25.535 +01:00 [INF] Applying migration '20230720104956_Data Seed'.
+2023-07-20 11:50:25.554 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 11:50:25.554 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:50:25.554 +01:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-07-20 11:50:25.557 +01:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-07-20 11:50:25.557 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-07-20 11:50:25.557 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 11:50:25.557 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 11:50:25.557 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (1, 'The one with that big park.', 'New York City');
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (2, 'The one that is in Belgium.', 'Antwerp');
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (3, 'The one with that big port between Morocco and Spain.', 'Tangier City');
+2023-07-20 11:50:25.561 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (1, 'The one with that big park.', 'New York City');
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (2, 'The one that is in Belgium.', 'Antwerp');
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (3, 'The one with that big port between Morocco and Spain.', 'Tangier City');
+2023-07-20 11:50:25.561 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-07-20 11:50:25.561 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 11:50:25.561 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 11:50:25.561 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointOfInterests" ("Id", "CityId", "Description", "Name")
+VALUES (1, 1, 'The most visited central park in the world.', 'Central Park');
+INSERT INTO "PointOfInterests" ("Id", "CityId", "Description", "Name")
+VALUES (2, 1, 'A 102-story skyscraper located in Midtown Manhattan.', 'Empire State Building');
+INSERT INTO "PointOfInterests" ("Id", "CityId", "Description", "Name")
+VALUES (3, 3, 'Is the big port in Africa, and one of the biggest in the world.', 'Big Port');
+2023-07-20 11:50:25.567 +01:00 [ERR] Failed executing DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointOfInterests" ("Id", "CityId", "Description", "Name")
+VALUES (1, 1, 'The most visited central park in the world.', 'Central Park');
+INSERT INTO "PointOfInterests" ("Id", "CityId", "Description", "Name")
+VALUES (2, 1, 'A 102-story skyscraper located in Midtown Manhattan.', 'Empire State Building');
+INSERT INTO "PointOfInterests" ("Id", "CityId", "Description", "Name")
+VALUES (3, 3, 'Is the big port in Africa, and one of the biggest in the world.', 'Big Port');
+2023-07-20 11:50:25.569 +01:00 [DBG] Disposing transaction.
+2023-07-20 11:50:25.569 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:50:25.570 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 11:50:25.570 +01:00 [DBG] 'CityInfoContext' disposed.
+2023-07-20 11:50:25.571 +01:00 [DBG] Disposing connection to database 'cityInfo-db' on server ''.
+2023-07-20 11:50:25.571 +01:00 [DBG] Disposed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 11:51:59.212 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-07-20 11:51:59.624 +01:00 [DBG] Entity Framework Core 7.0.9 initialized 'CityInfoContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.4+96806371445869d20be357993820cd4be366e145' with options: None
+2023-07-20 11:51:59.731 +01:00 [DBG] 'CityInfoContext' disposed.
+2023-07-20 11:52:19.087 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-07-20 11:52:19.497 +01:00 [DBG] Entity Framework Core 7.0.9 initialized 'CityInfoContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.4+96806371445869d20be357993820cd4be366e145' with options: None
+2023-07-20 11:52:19.505 +01:00 [DBG] Creating DbConnection.
+2023-07-20 11:52:19.523 +01:00 [DBG] Created DbConnection. (15ms).
+2023-07-20 11:52:19.525 +01:00 [DBG] Migrating using database 'cityInfo-db' on server ''.
+2023-07-20 11:52:19.528 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 11:52:19.602 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:52:19.609 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:52:19.614 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (2ms).
+2023-07-20 11:52:19.619 +01:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-07-20 11:52:19.622 +01:00 [DBG] Created DbCommand for 'ExecuteScalar' (3ms).
+2023-07-20 11:52:19.622 +01:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (5ms).
+2023-07-20 11:52:19.622 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 11:52:19.647 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:52:19.650 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-20 11:52:19.691 +01:00 [INF] Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-20 11:52:19.692 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:52:19.693 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 11:52:19.693 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 11:52:19.699 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:52:19.699 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:52:19.699 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 11:52:19.699 +01:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-07-20 11:52:19.699 +01:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-07-20 11:52:19.699 +01:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2023-07-20 11:52:19.699 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 11:52:19.699 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:52:19.699 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-20 11:52:19.700 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-20 11:52:19.700 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:52:19.700 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 11:52:19.708 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-20 11:52:19.708 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-07-20 11:52:19.708 +01:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-07-20 11:52:19.708 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 11:52:19.708 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:52:19.709 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-07-20 11:52:19.711 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-07-20 11:52:19.713 +01:00 [DBG] Closing data reader to 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:52:19.715 +01:00 [DBG] A data reader for 'cityInfo-db' on server 'tcp://localhost:5432' is being disposed after spending 3ms reading results.
+2023-07-20 11:52:19.715 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:52:19.715 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 11:52:19.724 +01:00 [INF] Applying migration '20230720104956_Data Seed'.
+2023-07-20 11:52:19.741 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 11:52:19.741 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:52:19.742 +01:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-07-20 11:52:19.744 +01:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-07-20 11:52:19.744 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-07-20 11:52:19.744 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 11:52:19.745 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 11:52:19.745 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (1, 'The one with that big park.', 'New York City');
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (2, 'The one that is in Belgium.', 'Antwerp');
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (3, 'The one with that big port between Morocco and Spain.', 'Tangier City');
+2023-07-20 11:52:19.747 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (1, 'The one with that big park.', 'New York City');
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (2, 'The one that is in Belgium.', 'Antwerp');
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (3, 'The one with that big port between Morocco and Spain.', 'Tangier City');
+2023-07-20 11:52:19.747 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-07-20 11:52:19.747 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 11:52:19.748 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 11:52:19.748 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointOfInterests" ("Id", "CityId", "Description", "Name")
+VALUES (1, 1, 'The most visited central park in the world.', 'Central Park');
+INSERT INTO "PointOfInterests" ("Id", "CityId", "Description", "Name")
+VALUES (2, 1, 'A 102-story skyscraper located in Midtown Manhattan.', 'Empire State Building');
+INSERT INTO "PointOfInterests" ("Id", "CityId", "Description", "Name")
+VALUES (3, 3, 'Is the big port in Africa, and one of the biggest in the world.', 'Big Port');
+2023-07-20 11:52:19.751 +01:00 [ERR] Failed executing DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointOfInterests" ("Id", "CityId", "Description", "Name")
+VALUES (1, 1, 'The most visited central park in the world.', 'Central Park');
+INSERT INTO "PointOfInterests" ("Id", "CityId", "Description", "Name")
+VALUES (2, 1, 'A 102-story skyscraper located in Midtown Manhattan.', 'Empire State Building');
+INSERT INTO "PointOfInterests" ("Id", "CityId", "Description", "Name")
+VALUES (3, 3, 'Is the big port in Africa, and one of the biggest in the world.', 'Big Port');
+2023-07-20 11:52:19.754 +01:00 [DBG] Disposing transaction.
+2023-07-20 11:52:19.754 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:52:19.754 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 11:52:19.754 +01:00 [DBG] 'CityInfoContext' disposed.
+2023-07-20 11:52:19.755 +01:00 [DBG] Disposing connection to database 'cityInfo-db' on server ''.
+2023-07-20 11:52:19.755 +01:00 [DBG] Disposed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 11:53:51.283 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-07-20 11:53:51.698 +01:00 [DBG] Entity Framework Core 7.0.9 initialized 'CityInfoContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.4+96806371445869d20be357993820cd4be366e145' with options: None
+2023-07-20 11:53:51.807 +01:00 [DBG] 'CityInfoContext' disposed.
+2023-07-20 11:54:04.103 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-07-20 11:54:04.514 +01:00 [DBG] Entity Framework Core 7.0.9 initialized 'CityInfoContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.4+96806371445869d20be357993820cd4be366e145' with options: None
+2023-07-20 11:54:04.522 +01:00 [DBG] Creating DbConnection.
+2023-07-20 11:54:04.539 +01:00 [DBG] Created DbConnection. (15ms).
+2023-07-20 11:54:04.542 +01:00 [DBG] Migrating using database 'cityInfo-db' on server ''.
+2023-07-20 11:54:04.544 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 11:54:04.618 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:54:04.624 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:54:04.629 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (2ms).
+2023-07-20 11:54:04.634 +01:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-07-20 11:54:04.637 +01:00 [DBG] Created DbCommand for 'ExecuteScalar' (3ms).
+2023-07-20 11:54:04.637 +01:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (5ms).
+2023-07-20 11:54:04.637 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 11:54:04.659 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:54:04.662 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-20 11:54:04.703 +01:00 [INF] Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-20 11:54:04.704 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:54:04.704 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 11:54:04.705 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 11:54:04.713 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:54:04.713 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:54:04.713 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 11:54:04.713 +01:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-07-20 11:54:04.713 +01:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-07-20 11:54:04.713 +01:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2023-07-20 11:54:04.713 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 11:54:04.713 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:54:04.713 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-20 11:54:04.714 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-20 11:54:04.714 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:54:04.714 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 11:54:04.722 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-20 11:54:04.722 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-07-20 11:54:04.722 +01:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-07-20 11:54:04.722 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 11:54:04.722 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:54:04.722 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-07-20 11:54:04.723 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-07-20 11:54:04.726 +01:00 [DBG] Closing data reader to 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:54:04.728 +01:00 [DBG] A data reader for 'cityInfo-db' on server 'tcp://localhost:5432' is being disposed after spending 3ms reading results.
+2023-07-20 11:54:04.728 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:54:04.728 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 11:54:04.737 +01:00 [INF] Applying migration '20230720104956_Data Seed'.
+2023-07-20 11:54:04.754 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 11:54:04.754 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:54:04.755 +01:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-07-20 11:54:04.757 +01:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-07-20 11:54:04.757 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-07-20 11:54:04.758 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 11:54:04.758 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 11:54:04.758 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (1, 'The one with that big park.', 'New York City');
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (2, 'The one that is in Belgium.', 'Antwerp');
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (3, 'The one with that big port between Morocco and Spain.', 'Tangier City');
+2023-07-20 11:54:04.761 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (1, 'The one with that big park.', 'New York City');
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (2, 'The one that is in Belgium.', 'Antwerp');
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (3, 'The one with that big port between Morocco and Spain.', 'Tangier City');
+2023-07-20 11:54:04.761 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-07-20 11:54:04.761 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 11:54:04.761 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 11:54:04.761 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointOfInterests" ("Id", "CityId", "Description", "Name")
+VALUES (1, 1, 'The most visited central park in the world.', 'Central Park');
+INSERT INTO "PointOfInterests" ("Id", "CityId", "Description", "Name")
+VALUES (2, 1, 'A 102-story skyscraper located in Midtown Manhattan.', 'Empire State Building');
+INSERT INTO "PointOfInterests" ("Id", "CityId", "Description", "Name")
+VALUES (3, 3, 'Is the big port in Africa, and one of the biggest in the world.', 'Big Port');
+2023-07-20 11:54:04.765 +01:00 [ERR] Failed executing DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointOfInterests" ("Id", "CityId", "Description", "Name")
+VALUES (1, 1, 'The most visited central park in the world.', 'Central Park');
+INSERT INTO "PointOfInterests" ("Id", "CityId", "Description", "Name")
+VALUES (2, 1, 'A 102-story skyscraper located in Midtown Manhattan.', 'Empire State Building');
+INSERT INTO "PointOfInterests" ("Id", "CityId", "Description", "Name")
+VALUES (3, 3, 'Is the big port in Africa, and one of the biggest in the world.', 'Big Port');
+2023-07-20 11:54:04.767 +01:00 [DBG] Disposing transaction.
+2023-07-20 11:54:04.767 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 11:54:04.767 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 11:54:04.768 +01:00 [DBG] 'CityInfoContext' disposed.
+2023-07-20 11:54:04.768 +01:00 [DBG] Disposing connection to database 'cityInfo-db' on server ''.
+2023-07-20 11:54:04.768 +01:00 [DBG] Disposed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 12:18:26.877 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-07-20 12:18:27.291 +01:00 [DBG] Entity Framework Core 7.0.9 initialized 'CityInfoContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.4+96806371445869d20be357993820cd4be366e145' with options: None
+2023-07-20 12:18:27.392 +01:00 [DBG] 'CityInfoContext' disposed.
+2023-07-20 12:18:59.454 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-07-20 12:18:59.879 +01:00 [DBG] Entity Framework Core 7.0.9 initialized 'CityInfoContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.4+96806371445869d20be357993820cd4be366e145' with options: None
+2023-07-20 12:18:59.887 +01:00 [DBG] Creating DbConnection.
+2023-07-20 12:18:59.906 +01:00 [DBG] Created DbConnection. (16ms).
+2023-07-20 12:18:59.909 +01:00 [DBG] Migrating using database 'cityInfo-db' on server ''.
+2023-07-20 12:18:59.912 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:18:59.984 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:18:59.990 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:18:59.995 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (2ms).
+2023-07-20 12:19:00.000 +01:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-07-20 12:19:00.003 +01:00 [DBG] Created DbCommand for 'ExecuteScalar' (2ms).
+2023-07-20 12:19:00.003 +01:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (5ms).
+2023-07-20 12:19:00.003 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:19:00.024 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:19:00.027 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-20 12:19:00.067 +01:00 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-20 12:19:00.067 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:19:00.068 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 12:19:00.069 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:19:00.074 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:19:00.074 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:19:00.074 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 12:19:00.074 +01:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-07-20 12:19:00.074 +01:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-07-20 12:19:00.074 +01:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2023-07-20 12:19:00.074 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:19:00.074 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:19:00.074 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-20 12:19:00.075 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-20 12:19:00.075 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:19:00.075 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 12:19:00.082 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-20 12:19:00.082 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-07-20 12:19:00.082 +01:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-07-20 12:19:00.082 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:19:00.082 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:19:00.082 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-07-20 12:19:00.083 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-07-20 12:19:00.085 +01:00 [DBG] Closing data reader to 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:19:00.087 +01:00 [DBG] A data reader for 'cityInfo-db' on server 'tcp://localhost:5432' is being disposed after spending 3ms reading results.
+2023-07-20 12:19:00.087 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:19:00.087 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 12:19:00.097 +01:00 [INF] Applying migration '20230720104956_Data Seed'.
+2023-07-20 12:19:00.115 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:19:00.115 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:19:00.116 +01:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-07-20 12:19:00.118 +01:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-07-20 12:19:00.119 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-07-20 12:19:00.119 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 12:19:00.119 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 12:19:00.119 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (1, 'The one with that big park.', 'New York City');
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (2, 'The one that is in Belgium.', 'Antwerp');
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (3, 'The one with that big port between Morocco and Spain.', 'Tangier City');
+2023-07-20 12:19:00.123 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (1, 'The one with that big park.', 'New York City');
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (2, 'The one that is in Belgium.', 'Antwerp');
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (3, 'The one with that big port between Morocco and Spain.', 'Tangier City');
+2023-07-20 12:19:00.123 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-07-20 12:19:00.123 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 12:19:00.123 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 12:19:00.123 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointOfInterests" ("Id", "CityId", "Description", "Name")
+VALUES (1, 1, 'The most visited central park in the world.', 'Central Park');
+INSERT INTO "PointOfInterests" ("Id", "CityId", "Description", "Name")
+VALUES (2, 1, 'A 102-story skyscraper located in Midtown Manhattan.', 'Empire State Building');
+INSERT INTO "PointOfInterests" ("Id", "CityId", "Description", "Name")
+VALUES (3, 3, 'Is the big port in Africa, and one of the biggest in the world.', 'Big Port');
+2023-07-20 12:19:00.127 +01:00 [ERR] Failed executing DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointOfInterests" ("Id", "CityId", "Description", "Name")
+VALUES (1, 1, 'The most visited central park in the world.', 'Central Park');
+INSERT INTO "PointOfInterests" ("Id", "CityId", "Description", "Name")
+VALUES (2, 1, 'A 102-story skyscraper located in Midtown Manhattan.', 'Empire State Building');
+INSERT INTO "PointOfInterests" ("Id", "CityId", "Description", "Name")
+VALUES (3, 3, 'Is the big port in Africa, and one of the biggest in the world.', 'Big Port');
+2023-07-20 12:19:00.129 +01:00 [DBG] Disposing transaction.
+2023-07-20 12:19:00.129 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:19:00.129 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 12:19:00.130 +01:00 [DBG] 'CityInfoContext' disposed.
+2023-07-20 12:19:00.130 +01:00 [DBG] Disposing connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:19:00.130 +01:00 [DBG] Disposed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 12:19:33.884 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-07-20 12:19:34.296 +01:00 [DBG] Entity Framework Core 7.0.9 initialized 'CityInfoContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.4+96806371445869d20be357993820cd4be366e145' with options: None
+2023-07-20 12:19:34.366 +01:00 [DBG] Creating DbConnection.
+2023-07-20 12:19:34.377 +01:00 [DBG] Created DbConnection. (9ms).
+2023-07-20 12:19:34.382 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:19:34.454 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:19:34.460 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:19:34.466 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (2ms).
+2023-07-20 12:19:34.470 +01:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-07-20 12:19:34.473 +01:00 [DBG] Created DbCommand for 'ExecuteScalar' (2ms).
+2023-07-20 12:19:34.473 +01:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (5ms).
+2023-07-20 12:19:34.473 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:19:34.497 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:19:34.501 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-20 12:19:34.541 +01:00 [INF] Executed DbCommand (41ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-20 12:19:34.541 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:19:34.542 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 12:19:34.547 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-20 12:19:34.547 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-07-20 12:19:34.547 +01:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-07-20 12:19:34.547 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:19:34.547 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:19:34.548 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-07-20 12:19:34.549 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-07-20 12:19:34.551 +01:00 [DBG] Closing data reader to 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:19:34.553 +01:00 [DBG] A data reader for 'cityInfo-db' on server 'tcp://localhost:5432' is being disposed after spending 3ms reading results.
+2023-07-20 12:19:34.553 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:19:34.553 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 12:19:34.581 +01:00 [DBG] 'CityInfoContext' disposed.
+2023-07-20 12:19:34.581 +01:00 [DBG] Disposing connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:19:34.582 +01:00 [DBG] Disposed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 12:19:50.195 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-07-20 12:19:50.605 +01:00 [DBG] Entity Framework Core 7.0.9 initialized 'CityInfoContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.4+96806371445869d20be357993820cd4be366e145' with options: None
+2023-07-20 12:19:50.676 +01:00 [DBG] Creating DbConnection.
+2023-07-20 12:19:50.687 +01:00 [DBG] Created DbConnection. (9ms).
+2023-07-20 12:19:50.692 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:19:50.765 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:19:50.771 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:19:50.777 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (2ms).
+2023-07-20 12:19:50.781 +01:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-07-20 12:19:50.784 +01:00 [DBG] Created DbCommand for 'ExecuteScalar' (2ms).
+2023-07-20 12:19:50.784 +01:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (5ms).
+2023-07-20 12:19:50.784 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:19:50.809 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:19:50.812 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-20 12:19:50.852 +01:00 [INF] Executed DbCommand (41ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-20 12:19:50.853 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:19:50.854 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 12:19:50.859 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-20 12:19:50.859 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-07-20 12:19:50.859 +01:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-07-20 12:19:50.859 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:19:50.859 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:19:50.859 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-07-20 12:19:50.860 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-07-20 12:19:50.863 +01:00 [DBG] Closing data reader to 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:19:50.864 +01:00 [DBG] A data reader for 'cityInfo-db' on server 'tcp://localhost:5432' is being disposed after spending 3ms reading results.
+2023-07-20 12:19:50.864 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:19:50.864 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 12:19:50.892 +01:00 [DBG] 'CityInfoContext' disposed.
+2023-07-20 12:19:50.893 +01:00 [DBG] Disposing connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:19:50.893 +01:00 [DBG] Disposed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 12:20:01.154 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-07-20 12:20:01.570 +01:00 [DBG] Entity Framework Core 7.0.9 initialized 'CityInfoContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.4+96806371445869d20be357993820cd4be366e145' with options: None
+2023-07-20 12:20:01.643 +01:00 [DBG] Creating DbConnection.
+2023-07-20 12:20:01.653 +01:00 [DBG] Created DbConnection. (9ms).
+2023-07-20 12:20:01.658 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:20:01.729 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:20:01.736 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:20:01.741 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (3ms).
+2023-07-20 12:20:01.746 +01:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-07-20 12:20:01.748 +01:00 [DBG] Created DbCommand for 'ExecuteScalar' (2ms).
+2023-07-20 12:20:01.749 +01:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (5ms).
+2023-07-20 12:20:01.749 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:20:01.769 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:20:01.772 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-20 12:20:01.815 +01:00 [INF] Executed DbCommand (44ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-20 12:20:01.816 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:20:01.816 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 12:20:01.821 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-20 12:20:01.821 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-07-20 12:20:01.822 +01:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-07-20 12:20:01.822 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:20:01.822 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:20:01.822 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-07-20 12:20:01.823 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-07-20 12:20:01.825 +01:00 [DBG] Closing data reader to 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:20:01.827 +01:00 [DBG] A data reader for 'cityInfo-db' on server 'tcp://localhost:5432' is being disposed after spending 3ms reading results.
+2023-07-20 12:20:01.827 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:20:01.827 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 12:20:01.856 +01:00 [DBG] 'CityInfoContext' disposed.
+2023-07-20 12:20:01.857 +01:00 [DBG] Disposing connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:20:01.857 +01:00 [DBG] Disposed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 12:20:17.929 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-07-20 12:20:18.338 +01:00 [DBG] Entity Framework Core 7.0.9 initialized 'CityInfoContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.4+96806371445869d20be357993820cd4be366e145' with options: None
+2023-07-20 12:20:18.409 +01:00 [DBG] Creating DbConnection.
+2023-07-20 12:20:18.420 +01:00 [DBG] Created DbConnection. (9ms).
+2023-07-20 12:20:18.424 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:20:18.495 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:20:18.502 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:20:18.507 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (2ms).
+2023-07-20 12:20:18.511 +01:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-07-20 12:20:18.514 +01:00 [DBG] Created DbCommand for 'ExecuteScalar' (2ms).
+2023-07-20 12:20:18.514 +01:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (5ms).
+2023-07-20 12:20:18.514 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:20:18.539 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:20:18.543 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-20 12:20:18.584 +01:00 [INF] Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-20 12:20:18.585 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:20:18.585 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 12:20:18.591 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-20 12:20:18.591 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-07-20 12:20:18.591 +01:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-07-20 12:20:18.591 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:20:18.591 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:20:18.591 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-07-20 12:20:18.593 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-07-20 12:20:18.595 +01:00 [DBG] Closing data reader to 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:20:18.596 +01:00 [DBG] A data reader for 'cityInfo-db' on server 'tcp://localhost:5432' is being disposed after spending 3ms reading results.
+2023-07-20 12:20:18.596 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:20:18.596 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 12:20:18.624 +01:00 [DBG] 'CityInfoContext' disposed.
+2023-07-20 12:20:18.625 +01:00 [DBG] Disposing connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:20:18.625 +01:00 [DBG] Disposed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 12:20:27.481 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-07-20 12:20:27.894 +01:00 [DBG] Entity Framework Core 7.0.9 initialized 'CityInfoContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.4+96806371445869d20be357993820cd4be366e145' with options: None
+2023-07-20 12:20:27.945 +01:00 [DBG] Creating DbConnection.
+2023-07-20 12:20:27.956 +01:00 [DBG] Created DbConnection. (9ms).
+2023-07-20 12:20:27.961 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:20:28.029 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:20:28.036 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:20:28.041 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (2ms).
+2023-07-20 12:20:28.045 +01:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-07-20 12:20:28.048 +01:00 [DBG] Created DbCommand for 'ExecuteScalar' (2ms).
+2023-07-20 12:20:28.048 +01:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (5ms).
+2023-07-20 12:20:28.048 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:20:28.073 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:20:28.077 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-20 12:20:28.120 +01:00 [INF] Executed DbCommand (44ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-20 12:20:28.121 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:20:28.121 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 12:20:28.127 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-20 12:20:28.127 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-07-20 12:20:28.127 +01:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-07-20 12:20:28.127 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:20:28.127 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:20:28.127 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-07-20 12:20:28.129 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-07-20 12:20:28.131 +01:00 [DBG] Closing data reader to 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:20:28.133 +01:00 [DBG] A data reader for 'cityInfo-db' on server 'tcp://localhost:5432' is being disposed after spending 3ms reading results.
+2023-07-20 12:20:28.133 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:20:28.133 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 12:20:28.134 +01:00 [DBG] Migrating using database 'cityInfo-db' on server ''.
+2023-07-20 12:20:28.134 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:20:28.140 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:20:28.140 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:20:28.140 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 12:20:28.140 +01:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-07-20 12:20:28.140 +01:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-07-20 12:20:28.140 +01:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2023-07-20 12:20:28.140 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:20:28.140 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:20:28.140 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-20 12:20:28.141 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-20 12:20:28.141 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:20:28.141 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 12:20:28.141 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:20:28.146 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:20:28.146 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:20:28.146 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 12:20:28.146 +01:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-07-20 12:20:28.146 +01:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-07-20 12:20:28.146 +01:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2023-07-20 12:20:28.146 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:20:28.146 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:20:28.146 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-20 12:20:28.147 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-20 12:20:28.147 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:20:28.147 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 12:20:28.147 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-20 12:20:28.147 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-07-20 12:20:28.147 +01:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-07-20 12:20:28.147 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:20:28.147 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:20:28.147 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-07-20 12:20:28.147 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-07-20 12:20:28.147 +01:00 [DBG] Closing data reader to 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:20:28.147 +01:00 [DBG] A data reader for 'cityInfo-db' on server 'tcp://localhost:5432' is being disposed after spending 0ms reading results.
+2023-07-20 12:20:28.147 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:20:28.147 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 12:20:28.151 +01:00 [INF] Reverting migration '20230720102637_CityInfoDBInitialMigration'.
+2023-07-20 12:20:28.158 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:20:28.158 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:20:28.159 +01:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-07-20 12:20:28.161 +01:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-07-20 12:20:28.162 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-07-20 12:20:28.162 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 12:20:28.162 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 12:20:28.162 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP TABLE "PointOfInterests";
+2023-07-20 12:20:28.169 +01:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP TABLE "PointOfInterests";
+2023-07-20 12:20:28.169 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-07-20 12:20:28.169 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 12:20:28.169 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 12:20:28.169 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP TABLE "Cities";
+2023-07-20 12:20:28.170 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP TABLE "Cities";
+2023-07-20 12:20:28.170 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-07-20 12:20:28.170 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 12:20:28.170 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 12:20:28.170 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "__EFMigrationsHistory"
+WHERE "MigrationId" = '20230720102637_CityInfoDBInitialMigration';
+2023-07-20 12:20:28.171 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "__EFMigrationsHistory"
+WHERE "MigrationId" = '20230720102637_CityInfoDBInitialMigration';
+2023-07-20 12:20:28.172 +01:00 [DBG] Committing transaction.
+2023-07-20 12:20:28.176 +01:00 [DBG] Committed transaction.
+2023-07-20 12:20:28.177 +01:00 [DBG] Disposing transaction.
+2023-07-20 12:20:28.177 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:20:28.177 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 12:20:28.182 +01:00 [DBG] 'CityInfoContext' disposed.
+2023-07-20 12:20:28.182 +01:00 [DBG] Disposing connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:20:28.182 +01:00 [DBG] Disposed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 12:20:55.830 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-07-20 12:20:56.238 +01:00 [DBG] Entity Framework Core 7.0.9 initialized 'CityInfoContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.4+96806371445869d20be357993820cd4be366e145' with options: None
+2023-07-20 12:20:56.356 +01:00 [DBG] 'CityInfoContext' disposed.
+2023-07-20 12:22:22.565 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-07-20 12:22:23.011 +01:00 [DBG] Entity Framework Core 7.0.9 initialized 'CityInfoContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.4+96806371445869d20be357993820cd4be366e145' with options: None
+2023-07-20 12:22:23.091 +01:00 [DBG] Creating DbConnection.
+2023-07-20 12:22:23.103 +01:00 [DBG] Created DbConnection. (10ms).
+2023-07-20 12:22:23.108 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:22:23.188 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:22:23.194 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:22:23.200 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (3ms).
+2023-07-20 12:22:23.205 +01:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-07-20 12:22:23.208 +01:00 [DBG] Created DbCommand for 'ExecuteScalar' (3ms).
+2023-07-20 12:22:23.209 +01:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (6ms).
+2023-07-20 12:22:23.209 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:22:23.229 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:22:23.232 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-20 12:22:23.274 +01:00 [INF] Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-20 12:22:23.275 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:22:23.276 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 12:22:23.281 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-20 12:22:23.281 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-07-20 12:22:23.281 +01:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-07-20 12:22:23.281 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:22:23.281 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:22:23.281 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-07-20 12:22:23.283 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-07-20 12:22:23.283 +01:00 [DBG] Closing data reader to 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:22:23.285 +01:00 [DBG] A data reader for 'cityInfo-db' on server 'tcp://localhost:5432' is being disposed after spending 2ms reading results.
+2023-07-20 12:22:23.285 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:22:23.285 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 12:22:23.290 +01:00 [DBG] 'CityInfoContext' disposed.
+2023-07-20 12:22:23.291 +01:00 [DBG] Disposing connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:22:23.291 +01:00 [DBG] Disposed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 12:24:49.905 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-07-20 12:24:50.315 +01:00 [DBG] Entity Framework Core 7.0.9 initialized 'CityInfoContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.4+96806371445869d20be357993820cd4be366e145' with options: None
+2023-07-20 12:24:50.433 +01:00 [DBG] 'CityInfoContext' disposed.
+2023-07-20 12:25:47.445 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-07-20 12:25:47.860 +01:00 [DBG] Entity Framework Core 7.0.9 initialized 'CityInfoContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.4+96806371445869d20be357993820cd4be366e145' with options: None
+2023-07-20 12:25:47.868 +01:00 [DBG] Creating DbConnection.
+2023-07-20 12:25:47.886 +01:00 [DBG] Created DbConnection. (16ms).
+2023-07-20 12:25:47.889 +01:00 [DBG] Migrating using database 'cityInfo-db' on server ''.
+2023-07-20 12:25:47.892 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:25:47.963 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:25:47.969 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:25:47.975 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (2ms).
+2023-07-20 12:25:47.979 +01:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-07-20 12:25:47.982 +01:00 [DBG] Created DbCommand for 'ExecuteScalar' (2ms).
+2023-07-20 12:25:47.982 +01:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (5ms).
+2023-07-20 12:25:47.982 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:25:48.008 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:25:48.011 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-20 12:25:48.053 +01:00 [INF] Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-20 12:25:48.053 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:25:48.054 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 12:25:48.055 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:25:48.060 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:25:48.060 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:25:48.060 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 12:25:48.060 +01:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-07-20 12:25:48.060 +01:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-07-20 12:25:48.060 +01:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2023-07-20 12:25:48.060 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:25:48.060 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:25:48.060 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-20 12:25:48.061 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-20 12:25:48.061 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:25:48.061 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 12:25:48.068 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-20 12:25:48.068 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-07-20 12:25:48.068 +01:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-07-20 12:25:48.068 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:25:48.068 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:25:48.068 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-07-20 12:25:48.069 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-07-20 12:25:48.070 +01:00 [DBG] Closing data reader to 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:25:48.072 +01:00 [DBG] A data reader for 'cityInfo-db' on server 'tcp://localhost:5432' is being disposed after spending 2ms reading results.
+2023-07-20 12:25:48.072 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:25:48.072 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 12:25:48.081 +01:00 [INF] Applying migration '20230720112450_CityInfoDBInitialMigration'.
+2023-07-20 12:25:48.107 +01:00 [DBG] Opening connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:25:48.107 +01:00 [DBG] Opened connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:25:48.108 +01:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-07-20 12:25:48.110 +01:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-07-20 12:25:48.111 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-07-20 12:25:48.111 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 12:25:48.111 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 12:25:48.111 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Cities" (
+    "Id" integer GENERATED BY DEFAULT AS IDENTITY,
+    "Name" character varying(50) NOT NULL,
+    "Description" character varying(200) NULL,
+    CONSTRAINT "PK_Cities" PRIMARY KEY ("Id")
+);
+2023-07-20 12:25:48.121 +01:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Cities" (
+    "Id" integer GENERATED BY DEFAULT AS IDENTITY,
+    "Name" character varying(50) NOT NULL,
+    "Description" character varying(200) NULL,
+    CONSTRAINT "PK_Cities" PRIMARY KEY ("Id")
+);
+2023-07-20 12:25:48.121 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-07-20 12:25:48.121 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 12:25:48.121 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 12:25:48.121 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "PointOfInterests" (
+    "Id" integer GENERATED BY DEFAULT AS IDENTITY,
+    "Name" character varying(50) NOT NULL,
+    "Description" character varying(200) NULL,
+    "CityId" integer NOT NULL,
+    CONSTRAINT "PK_PointOfInterests" PRIMARY KEY ("Id"),
+    CONSTRAINT "FK_PointOfInterests_Cities_CityId" FOREIGN KEY ("CityId") REFERENCES "Cities" ("Id") ON DELETE CASCADE
+);
+2023-07-20 12:25:48.124 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "PointOfInterests" (
+    "Id" integer GENERATED BY DEFAULT AS IDENTITY,
+    "Name" character varying(50) NOT NULL,
+    "Description" character varying(200) NULL,
+    "CityId" integer NOT NULL,
+    CONSTRAINT "PK_PointOfInterests" PRIMARY KEY ("Id"),
+    CONSTRAINT "FK_PointOfInterests_Cities_CityId" FOREIGN KEY ("CityId") REFERENCES "Cities" ("Id") ON DELETE CASCADE
+);
+2023-07-20 12:25:48.124 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-07-20 12:25:48.124 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 12:25:48.124 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 12:25:48.124 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (1, 'The one with that big park.', 'New York City');
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (2, 'The one that is in Belgium.', 'Antwerp');
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (3, 'The one with that big port between Morocco and Spain.', 'Tangier City');
+2023-07-20 12:25:48.125 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (1, 'The one with that big park.', 'New York City');
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (2, 'The one that is in Belgium.', 'Antwerp');
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (3, 'The one with that big port between Morocco and Spain.', 'Tangier City');
+2023-07-20 12:25:48.125 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-07-20 12:25:48.125 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 12:25:48.125 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 12:25:48.125 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointOfInterests" ("Id", "CityId", "Description", "Name")
+VALUES (1, 1, 'The most visited central park in the world.', 'Central Park');
+INSERT INTO "PointOfInterests" ("Id", "CityId", "Description", "Name")
+VALUES (2, 1, 'A 102-story skyscraper located in Midtown Manhattan.', 'Empire State Building');
+INSERT INTO "PointOfInterests" ("Id", "CityId", "Description", "Name")
+VALUES (3, 3, 'Is the big port in Africa, and one of the biggest in the world.', 'Big Port');
+2023-07-20 12:25:48.126 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointOfInterests" ("Id", "CityId", "Description", "Name")
+VALUES (1, 1, 'The most visited central park in the world.', 'Central Park');
+INSERT INTO "PointOfInterests" ("Id", "CityId", "Description", "Name")
+VALUES (2, 1, 'A 102-story skyscraper located in Midtown Manhattan.', 'Empire State Building');
+INSERT INTO "PointOfInterests" ("Id", "CityId", "Description", "Name")
+VALUES (3, 3, 'Is the big port in Africa, and one of the biggest in the world.', 'Big Port');
+2023-07-20 12:25:48.126 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-07-20 12:25:48.126 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 12:25:48.126 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 12:25:48.126 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_PointOfInterests_CityId" ON "PointOfInterests" ("CityId");
+2023-07-20 12:25:48.128 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_PointOfInterests_CityId" ON "PointOfInterests" ("CityId");
+2023-07-20 12:25:48.128 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-07-20 12:25:48.128 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 12:25:48.128 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 12:25:48.128 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT setval(
+    pg_get_serial_sequence('"Cities"', 'Id'),
+    GREATEST(
+        (SELECT MAX("Id") FROM "Cities") + 1,
+        nextval(pg_get_serial_sequence('"Cities"', 'Id'))),
+    false);
+SELECT setval(
+    pg_get_serial_sequence('"PointOfInterests"', 'Id'),
+    GREATEST(
+        (SELECT MAX("Id") FROM "PointOfInterests") + 1,
+        nextval(pg_get_serial_sequence('"PointOfInterests"', 'Id'))),
+    false);
+2023-07-20 12:25:48.130 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT setval(
+    pg_get_serial_sequence('"Cities"', 'Id'),
+    GREATEST(
+        (SELECT MAX("Id") FROM "Cities") + 1,
+        nextval(pg_get_serial_sequence('"Cities"', 'Id'))),
+    false);
+SELECT setval(
+    pg_get_serial_sequence('"PointOfInterests"', 'Id'),
+    GREATEST(
+        (SELECT MAX("Id") FROM "PointOfInterests") + 1,
+        nextval(pg_get_serial_sequence('"PointOfInterests"', 'Id'))),
+    false);
+2023-07-20 12:25:48.131 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-07-20 12:25:48.131 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 12:25:48.131 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-20 12:25:48.131 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20230720112450_CityInfoDBInitialMigration', '7.0.9');
+2023-07-20 12:25:48.131 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20230720112450_CityInfoDBInitialMigration', '7.0.9');
+2023-07-20 12:25:48.132 +01:00 [DBG] Committing transaction.
+2023-07-20 12:25:48.133 +01:00 [DBG] Committed transaction.
+2023-07-20 12:25:48.134 +01:00 [DBG] Disposing transaction.
+2023-07-20 12:25:48.134 +01:00 [DBG] Closing connection to database 'cityInfo-db' on server 'tcp://localhost:5432'.
+2023-07-20 12:25:48.134 +01:00 [DBG] Closed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 12:25:48.135 +01:00 [DBG] 'CityInfoContext' disposed.
+2023-07-20 12:25:48.135 +01:00 [DBG] Disposing connection to database 'cityInfo-db' on server ''.
+2023-07-20 12:25:48.136 +01:00 [DBG] Disposed connection to database 'cityInfo-db' on server '' (0ms).
+2023-07-20 12:39:42.066 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-07-20 12:39:42.159 +01:00 [DBG] Hosting starting
+2023-07-20 12:39:42.351 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 8C8B15590C889CCD8056A0B432C5290FF57500E7)
+2023-07-20 12:39:42.361 +01:00 [INF] Now listening on: https://localhost:7253
+2023-07-20 12:39:42.361 +01:00 [INF] Now listening on: http://localhost:5197
+2023-07-20 12:39:42.361 +01:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2023-07-20 12:39:42.362 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-20 12:39:42.362 +01:00 [INF] Hosting environment: Development
+2023-07-20 12:39:42.362 +01:00 [INF] Content root path: /Users/macbookpro/Documents/DWM/ASP.NET Core/CityInfo/CityInfo.API/
+2023-07-20 12:39:42.362 +01:00 [DBG] Hosting started
+2023-07-20 12:39:42.667 +01:00 [DBG] Connection id "0HMS92O17DC2P" received FIN.
+2023-07-20 12:39:42.677 +01:00 [DBG] Connection id "0HMS92O17DC2P" accepted.
+2023-07-20 12:39:42.678 +01:00 [DBG] Connection id "0HMS92O17DC2P" started.
+2023-07-20 12:39:42.691 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-07-20 12:39:42.730 +01:00 [DBG] Connection id "0HMS92O17DC2P" stopped.
+2023-07-20 12:39:42.733 +01:00 [DBG] Connection id "0HMS92O17DC2P" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-07-20 12:39:42.958 +01:00 [DBG] Connection id "0HMS92O17DC2Q" accepted.
+2023-07-20 12:39:42.958 +01:00 [DBG] Connection id "0HMS92O17DC2Q" started.
+2023-07-20 12:39:43.044 +01:00 [DBG] Connection 0HMS92O17DC2Q established using the following protocol: "Tls12"
+2023-07-20 12:39:43.600 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7253/swagger/index.html - -
+2023-07-20 12:39:43.601 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-20 12:39:43.732 +01:00 [DBG] Connection id "0HMS92O17DC2Q" completed keep alive response.
+2023-07-20 12:39:43.733 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7253/swagger/index.html - - - 200 - text/html;charset=utf-8 135.1694ms
+2023-07-20 12:39:43.975 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7253/swagger/v1/swagger.json - -
+2023-07-20 12:39:44.090 +01:00 [DBG] Connection id "0HMS92O17DC2R" accepted.
+2023-07-20 12:39:44.090 +01:00 [DBG] Connection id "0HMS92O17DC2R" started.
+2023-07-20 12:39:44.114 +01:00 [DBG] Connection 0HMS92O17DC2R established using the following protocol: "Tls12"
+2023-07-20 12:39:44.115 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7253/apple-touch-icon-precomposed.png - -
+2023-07-20 12:39:44.117 +01:00 [DBG] The request path  does not match the path filter
+2023-07-20 12:39:44.118 +01:00 [DBG] Connection id "0HMS92O17DC2Q" completed keep alive response.
+2023-07-20 12:39:44.118 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7253/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 142.4095ms
+2023-07-20 12:39:44.152 +01:00 [DBG] No candidates found for the request path '/apple-touch-icon-precomposed.png'
+2023-07-20 12:39:44.152 +01:00 [DBG] Request did not match any endpoints
+2023-07-20 12:39:44.154 +01:00 [DBG] Connection id "0HMS92O17DC2R" completed keep alive response.
+2023-07-20 12:39:44.155 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7253/apple-touch-icon-precomposed.png - - - 404 0 - 39.6173ms
+2023-07-20 12:39:44.157 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7253/apple-touch-icon.png - -
+2023-07-20 12:39:44.157 +01:00 [DBG] The request path  does not match the path filter
+2023-07-20 12:39:44.157 +01:00 [DBG] No candidates found for the request path '/apple-touch-icon.png'
+2023-07-20 12:39:44.157 +01:00 [DBG] Request did not match any endpoints
+2023-07-20 12:39:44.157 +01:00 [DBG] Connection id "0HMS92O17DC2R" completed keep alive response.
+2023-07-20 12:39:44.158 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7253/apple-touch-icon.png - - - 404 0 - 0.9854ms
+2023-07-20 12:40:05.511 +01:00 [INF] Application is shutting down...
+2023-07-20 12:40:05.513 +01:00 [DBG] Hosting stopping
+2023-07-20 12:40:05.526 +01:00 [DBG] Connection id "0HMS92O17DC2R" disconnecting.
+2023-07-20 12:40:05.526 +01:00 [DBG] Connection id "0HMS92O17DC2Q" disconnecting.
+2023-07-20 12:40:05.528 +01:00 [DBG] Connection id "0HMS92O17DC2R" stopped.
+2023-07-20 12:40:05.528 +01:00 [DBG] Connection id "0HMS92O17DC2Q" stopped.
+2023-07-20 12:40:05.528 +01:00 [DBG] Connection id "0HMS92O17DC2Q" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-07-20 12:40:05.528 +01:00 [DBG] Connection id "0HMS92O17DC2R" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-07-20 12:40:05.531 +01:00 [DBG] Hosting stopped
