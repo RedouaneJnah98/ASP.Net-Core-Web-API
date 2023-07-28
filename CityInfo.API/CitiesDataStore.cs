@@ -6,7 +6,6 @@ public class CitiesDataStore
 {
     public CitiesDataStore()
     {
-        // init dummy data
         Cities = new List<CityDto>
         {
             new()
@@ -14,7 +13,7 @@ public class CitiesDataStore
                 Id = 1,
                 Name = "New York",
                 Description = "The one with that big park.",
-                PointOfInterestDto = new List<PointOfInterestDto>()
+                PointOfInterest = new List<PointOfInterestDto>()
                 {
                     new()
                     {
@@ -35,7 +34,7 @@ public class CitiesDataStore
                 Id = 2,
                 Name = "Antwerp",
                 Description = "The one with the cathedral that was never finished.",
-                PointOfInterestDto = new List<PointOfInterestDto>()
+                PointOfInterest = new List<PointOfInterestDto>()
                 {
                     new()
                     {
@@ -56,7 +55,7 @@ public class CitiesDataStore
                 Id = 3,
                 Name = "Tangier",
                 Description = "The one with vast valley in Africa.",
-                PointOfInterestDto = new List<PointOfInterestDto>()
+                PointOfInterest = new List<PointOfInterestDto>()
                 {
                     new()
                     {
@@ -76,6 +75,4 @@ public class CitiesDataStore
     }
 
     public List<CityDto> Cities { get; set; }
-
-   // public static CitiesDataStore Current { get; } = new();
 }
