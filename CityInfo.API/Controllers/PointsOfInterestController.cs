@@ -9,7 +9,8 @@ using Microsoft.AspNetCore.Mvc;
 namespace CityInfo.API.Controllers;
 
 [ApiController]
-[Authorize(Policy = "MustBeFromAntwerp")]
+//[Authorize(Policy = "MustBeFromAntwerp")]
+[ApiVersion("2.0")]
 [Route("/api/cities/{cityId}/pointsofinterest")]
 public class PointsOfInterestController : ControllerBase
 {
@@ -17,7 +18,7 @@ public class PointsOfInterestController : ControllerBase
     private readonly ILogger<PointsOfInterestController> _logger;
     private readonly IMailService _mailService;
     private readonly IMapper _mapper;
-
+    
     public PointsOfInterestController(ILogger<PointsOfInterestController> logger, IMailService mailService,
         ICityInfoRepository cityInfoRepository, IMapper mapper)
     {
